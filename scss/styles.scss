@@ -1,0 +1,293 @@
+@import "globals";
+
+.wave {
+  width: 20%;
+  margin: auto;
+}
+
+body {
+  position: relative;
+  width: 100vw;
+  height: 100%;
+
+  header {
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    height: 95px;
+    margin: auto;
+    // background-color: blue;
+
+    .marginContainer {
+      width: 80%;
+      display: flex;
+      justify-content: space-between;      
+      margin: auto;
+
+      .logoContainer {
+        display: flex;
+        width: 100px;
+        height: 50px;
+        margin-top: 10px;
+
+        img {
+          align-self: center;
+          width: 100px;
+          height: 25px;
+        }
+      }
+
+      nav {
+        width: 35%;
+        margin-top: 25px;
+
+        ul {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+
+          li {
+            font-family: $usH;
+            font-size: 16;
+            color: $white;
+            
+            a {
+              text-decoration: none;
+            }
+          }
+        }
+      }      
+    }
+  }
+
+  .pageContainer {
+    width: 100vw;
+
+    .hero {
+      width: 100%;
+      // background-color: $headerBlue;
+
+      .marginContainer {
+        position: absolute;
+        width: 100%;
+
+        .heroContent {
+          width: 40%;
+          margin: auto;
+          margin-top: 138px;
+          margin-left: 10%;
+          // background-color: blue;
+
+          h1 {
+            width: 30%;
+            font-size: 84px;
+            color: $white;
+          }
+
+          button {
+            display: flex;
+            justify-content: space-around;
+            width: 30%;
+            height: 48px;
+            margin-top: 70px;
+            background-color: $buttonGreen;
+            border: none;
+            
+            .btnTxt {
+              align-self: center;
+              width: 72%;
+            }
+            .btnArrow {
+              align-self: center;
+              width: 9%;
+            }
+          }          
+        }                                                                                                                                           
+      }
+
+      .heroImg {
+        width: 100%;        
+      }
+    }
+
+    .contentContainer {
+      width: 80%;
+      margin: auto;
+
+      .firstSection {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        margin-top: 44px;
+        background-color: blue;
+
+        img {
+          width: 33.33%;
+          height: 100%;
+        }
+      }
+
+      .secondSection {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 100px;
+
+        .titleImg {
+          width: 40%;
+          align-self: center;
+        }
+
+        .wave {
+          margin-top: 30px;
+        }
+
+        p {
+          width: 100%;
+          margin-top: 32px;
+          font-size: 24px;
+          font-family: $sspR;
+          line-height: 36px;
+          text-align: center;
+          color: $textPurple;
+
+          span {
+            font-family: $usHI;
+          }
+        }
+
+        .whoWeAreLink {
+          margin-top: 0px;
+          color: $textGreen;
+          text-decoration: underline;
+        }
+      }
+
+      .thirdSection {
+        position: relative;
+        width: 100%;
+        margin-top: 95px;
+
+        img {
+          width: 100%;
+        }
+
+        .ladiesContent {
+          position: absolute;
+          width: 30%;
+          top: 60px;
+          left: 33px;
+
+          p {
+            font-size: 28px;
+            font-family: $sspSBI;
+            color: $white;
+          }
+
+          h2 {
+            font-size: 75px;
+            color: $white;      
+            margin-top: 20px;      
+          }
+
+          button {
+            width: 70%;
+            height: 50px;
+            margin-top: 45px;
+            background-color: $buttonBlue;
+
+            .btnMargin {
+              display: flex;
+              width: 85%;
+              height: 50%;
+              margin: auto;
+              justify-content: space-between;
+
+              .avaliableImg {
+                width: 85%;
+              }
+
+              img {
+                width: 20px;
+              }
+            }
+
+          }
+        }
+      }
+
+      .waveContainer {
+        display: flex;
+        width: 100%;
+
+        .wave {
+          margin-top: 72px;
+        }
+      }
+
+      .fourthSection {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        margin-top: 73px;
+
+        img {
+          width: 25%;
+          object-fit: cover;
+
+          &:nth-of-type(1) {
+            height: 100%;
+          }
+        }
+      }    
+    }
+
+  }
+
+  footer {
+    width: 100%;
+    height: 154px;
+    margin-top: 71px;
+    background-color: $footerGrey;
+
+    .footerMargin {
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      height: 100%;
+      margin: auto;
+
+      p {
+        align-self: center;
+        width: 150px;
+        font-size: 16px;
+        font-family: $usH;
+        color: $textGrey;
+      }
+
+      ul {
+        align-self: center;
+        display: flex;
+        justify-content: space-between;
+        width: 280px;
+
+        li {
+          font-size: 16px;
+          font-family: $sspR;
+          color: $textGrey;
+        }
+      }
+
+      .iconContainer {
+        align-self: center;
+        display: flex;
+        justify-content: flex-end;
+        width: 150px;
+
+        img:nth-of-type(1) {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}

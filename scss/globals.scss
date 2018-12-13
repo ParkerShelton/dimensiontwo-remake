@@ -1,0 +1,44 @@
+/////////////////////////////////////
+//             COLORS              //
+/////////////////////////////////////
+$white: #fff; 
+$headerBlue: #21447E;
+$buttonGreen: #22D1AD;
+$buttonBlue: #049294;
+$textPurple: #6B6C79;
+$textGreen: #2BA78D;
+$textGrey: #9394A1;
+$footerGrey: #F1F0F3;
+
+
+
+
+/////////////////////////////////////
+//             FONTS               //
+/////////////////////////////////////
+@font-face {
+  font-family: 'SourceSansProBoldIt';
+  src: url("../fonts/SourceSansPro-BoldIt.otf") format("opentype");
+}
+@font-face {
+  font-family: 'SourceSansProRegular';
+  src: url("../fonts/SourceSansPro-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: 'SourceSansProSemiboldIt';
+  src: url("../fonts/SourceSansPro-SemiboldIt.otf") format("opentype");
+}
+@font-face {
+  font-family: 'UniSansHeavyCaps';
+  src: url("../fonts/uni-sans.heavy-caps.otf") format("opentype");
+}
+@font-face {
+  font-family: 'UniSansHeavyCapsIt';
+  src: url("../fonts/uni-sans.heavy-italic-caps.otf") format("opentype");
+}
+
+$sspBI: 'SourceSansProBoldIt';
+$sspR: 'SourceSansProRegular';
+$sspSBI: 'SourceSansProSemiboldIt';
+$usH: 'UniSansHeavyCaps';
+$usHI: 'UniSansHeavyCapsIt';

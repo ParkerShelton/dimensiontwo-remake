@@ -1,0 +1,211 @@
+@font-face {
+  font-family: 'SourceSansProBoldIt';
+  src: url("/fonts/SourceSansPro-BoldIt.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'SourceSansProRegular';
+  src: url("/fonts/SourceSansPro-Regular.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'SourceSansProSemiboldIt';
+  src: url("/fonts/SourceSansPro-SemiboldIt.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'UniSansHeavyCaps';
+  src: url("/fonts/uni-sans.heavy-caps.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'UniSansHeavyCapsIt';
+  src: url("/fonts/uni-sans.heavy-italic-caps.otf") format("opentype"); }
+
+.wave {
+  width: 20%;
+  margin: auto; }
+
+body {
+  position: relative;
+  width: 100vw;
+  height: 100%; }
+  body header {
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    height: 95px;
+    margin: auto; }
+    body header .marginContainer {
+      width: 80%;
+      display: flex;
+      justify-content: space-between;
+      margin: auto; }
+      body header .marginContainer .logoContainer {
+        display: flex;
+        width: 100px;
+        height: 50px;
+        margin-top: 10px; }
+        body header .marginContainer .logoContainer img {
+          align-self: center;
+          width: 100px;
+          height: 25px; }
+      body header .marginContainer nav {
+        width: 35%;
+        margin-top: 25px; }
+        body header .marginContainer nav ul {
+          width: 100%;
+          display: flex;
+          justify-content: space-between; }
+          body header .marginContainer nav ul li {
+            font-family: "UniSansHeavyCaps";
+            font-size: 16;
+            color: #fff; }
+            body header .marginContainer nav ul li a {
+              text-decoration: none; }
+  body .pageContainer {
+    width: 100vw; }
+    body .pageContainer .hero {
+      width: 100%; }
+      body .pageContainer .hero .marginContainer {
+        position: absolute;
+        width: 100%; }
+        body .pageContainer .hero .marginContainer .heroContent {
+          width: 40%;
+          margin: auto;
+          margin-top: 138px;
+          margin-left: 10%; }
+          body .pageContainer .hero .marginContainer .heroContent h1 {
+            width: 30%;
+            font-size: 84px;
+            color: #fff; }
+          body .pageContainer .hero .marginContainer .heroContent button {
+            display: flex;
+            justify-content: space-around;
+            width: 30%;
+            height: 48px;
+            margin-top: 70px;
+            background-color: #22D1AD;
+            border: none; }
+            body .pageContainer .hero .marginContainer .heroContent button .btnTxt {
+              align-self: center;
+              width: 72%; }
+            body .pageContainer .hero .marginContainer .heroContent button .btnArrow {
+              align-self: center;
+              width: 9%; }
+      body .pageContainer .hero .heroImg {
+        width: 100%; }
+    body .pageContainer .contentContainer {
+      width: 80%;
+      margin: auto; }
+      body .pageContainer .contentContainer .firstSection {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        margin-top: 44px;
+        background-color: blue; }
+        body .pageContainer .contentContainer .firstSection img {
+          width: 33.33%;
+          height: 100%; }
+      body .pageContainer .contentContainer .secondSection {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 100px; }
+        body .pageContainer .contentContainer .secondSection .titleImg {
+          width: 40%;
+          align-self: center; }
+        body .pageContainer .contentContainer .secondSection .wave {
+          margin-top: 30px; }
+        body .pageContainer .contentContainer .secondSection p {
+          width: 100%;
+          margin-top: 32px;
+          font-size: 24px;
+          font-family: "SourceSansProRegular";
+          line-height: 36px;
+          text-align: center;
+          color: #6B6C79; }
+          body .pageContainer .contentContainer .secondSection p span {
+            font-family: "UniSansHeavyCapsIt"; }
+        body .pageContainer .contentContainer .secondSection .whoWeAreLink {
+          margin-top: 0px;
+          color: #2BA78D;
+          text-decoration: underline; }
+      body .pageContainer .contentContainer .thirdSection {
+        position: relative;
+        width: 100%;
+        margin-top: 95px; }
+        body .pageContainer .contentContainer .thirdSection img {
+          width: 100%; }
+        body .pageContainer .contentContainer .thirdSection .ladiesContent {
+          position: absolute;
+          width: 30%;
+          top: 60px;
+          left: 33px; }
+          body .pageContainer .contentContainer .thirdSection .ladiesContent p {
+            font-size: 28px;
+            font-family: "SourceSansProSemiboldIt";
+            color: #fff; }
+          body .pageContainer .contentContainer .thirdSection .ladiesContent h2 {
+            font-size: 75px;
+            color: #fff;
+            margin-top: 20px; }
+          body .pageContainer .contentContainer .thirdSection .ladiesContent button {
+            width: 70%;
+            height: 50px;
+            margin-top: 45px;
+            background-color: #049294; }
+            body .pageContainer .contentContainer .thirdSection .ladiesContent button .btnMargin {
+              display: flex;
+              width: 85%;
+              height: 50%;
+              margin: auto;
+              justify-content: space-between; }
+              body .pageContainer .contentContainer .thirdSection .ladiesContent button .btnMargin .avaliableImg {
+                width: 85%; }
+              body .pageContainer .contentContainer .thirdSection .ladiesContent button .btnMargin img {
+                width: 20px; }
+      body .pageContainer .contentContainer .waveContainer {
+        display: flex;
+        width: 100%; }
+        body .pageContainer .contentContainer .waveContainer .wave {
+          margin-top: 72px; }
+      body .pageContainer .contentContainer .fourthSection {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        margin-top: 73px; }
+        body .pageContainer .contentContainer .fourthSection img {
+          width: 25%;
+          object-fit: cover; }
+          body .pageContainer .contentContainer .fourthSection img:nth-of-type(1) {
+            height: 100%; }
+  body footer {
+    width: 100%;
+    height: 154px;
+    margin-top: 71px;
+    background-color: #F1F0F3; }
+    body footer .footerMargin {
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      height: 100%;
+      margin: auto; }
+      body footer .footerMargin p {
+        align-self: center;
+        width: 150px;
+        font-size: 16px;
+        font-family: "UniSansHeavyCaps";
+        color: #9394A1; }
+      body footer .footerMargin ul {
+        align-self: center;
+        display: flex;
+        justify-content: space-between;
+        width: 280px; }
+        body footer .footerMargin ul li {
+          font-size: 16px;
+          font-family: "SourceSansProRegular";
+          color: #9394A1; }
+      body footer .footerMargin .iconContainer {
+        align-self: center;
+        display: flex;
+        justify-content: flex-end;
+        width: 150px; }
+        body footer .footerMargin .iconContainer img:nth-of-type(1) {
+          margin-right: 10px; }
